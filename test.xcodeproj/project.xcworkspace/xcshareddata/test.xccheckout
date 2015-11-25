@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>26FFCF74-7374-49D4-8B26-D5F1F88B86C9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>test</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9374905EA7212B59485003CFD20E28E8B6BBE3DF</key>
+		<string>vogsphere.42.fr:intra/2014/activities/rush_introduction_to_ios/mmorlet</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Rush/test.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9374905EA7212B59485003CFD20E28E8B6BBE3DF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>vogsphere.42.fr:intra/2014/activities/rush_introduction_to_ios/mmorlet</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9374905EA7212B59485003CFD20E28E8B6BBE3DF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9374905EA7212B59485003CFD20E28E8B6BBE3DF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>push</string>
+		</dict>
+	</array>
+</dict>
+</plist>
