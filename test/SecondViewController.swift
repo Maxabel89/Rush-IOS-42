@@ -31,7 +31,7 @@ class SecondViewController: UIViewController, CLLocationManagerDelegate  {
         mapView.setRegion(region, animated: true)
         
         let annotation = MKPointAnnotation()
-        annotation.setCoordinate(location)
+        annotation.coordinate = location
         annotation.title = "Ecole 42"
         annotation.subtitle = "Born to Code"
         mapView.addAnnotation(annotation)
@@ -78,8 +78,8 @@ class SecondViewController: UIViewController, CLLocationManagerDelegate  {
  
     
     
-    func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
-        let location = locations.last as CLLocation
+    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let location = locations.last as CLLocation!
         
         let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
         let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.002, longitudeDelta: 0.002))

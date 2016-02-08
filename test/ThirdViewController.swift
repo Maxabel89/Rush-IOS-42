@@ -20,7 +20,7 @@ class ThirdViewController: UIViewController {
     func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell!
     {
         let cell:UITableViewCell = UITableViewCell(style:UITableViewCellStyle.Default, reuseIdentifier:"cell")
-        cell.textLabel.text = tableData[indexPath.row]
+        cell.textLabel!.text = tableData[indexPath.row]
         
         return cell
     }
